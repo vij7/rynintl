@@ -61,6 +61,8 @@ $(document).ready(function() {
 
 	$(".banner_section").css("height", banner_h);
 	
+	$(".register").css({"min-height" : banner_h, 'height' : 'auto'});
+	
 
 });
 
