@@ -2,7 +2,7 @@
             /*========= MAIN CSS =========*/
 
 /*====================================================================*/
-@font-face{
+/* @font-face{
   font-family:'Lato';
   src:url(../fonts/Lato-Regular.ttf);
   font-weight: 400;
@@ -16,7 +16,7 @@
   font-family:'Lato';
   src:url(../fonts/Lato-Light.ttf);
   font-weight: 300;
-}
+} */
 /*================== common style ====*/
 
 
@@ -593,8 +593,51 @@ input[type="text"], input[type="password"], input[type="email"], input[type="pho
 .each_input a {
   color: #df3d1e;
 }
+.dash_title {
+  padding: 40px 0;
+  background: linear-gradient(90deg, rgb(223, 61, 30) 18%, rgb(135, 8, 24) 100%);
+  color: #fff;
+  text-align: center;
+  font-wight: bold;
+}
 
+.dash_title.dark {
+  background: linear-gradient(90deg, #6B6F7B 18%, #373b47 100%);
+}
 
+.dash_title h2 {
+  font-size: 22px !important;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 700;
+}
+
+.dm_inner {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+          align-items: center;
+}
+.dash_links li {
+  list-style: none;
+  display: inline-block;
+}
+
+.dash_links li a {
+  display: inline-block;
+  padding: 20px;
+}
+.dash_menu {
+  padding: 10px 15px;
+  background: #f3f3f3;
+  border-bottom: 1px solid #e1e1e1;
+}
+
+a:hover, a:focus,a:active {
+  color: #df3d1e;
+}
 
 /*
 
